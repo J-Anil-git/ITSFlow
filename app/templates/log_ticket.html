@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Log a ticket{% endblock %}
+{% block content %}
+<h1>Log a ticket</h1>
+<p class="lede">Tell the IT Desk what's wrong.</p>
+<form method="post" class="panel form" novalidate>
+  {{ form.hidden_tag() }}
+  {% for field in [form.staff_name, form.department, form.description] %}
+  <label for="{{ field.id }}">{{ field.label.text }}
+    {{ field() }}
+    {% for error in field.errors %}<span class="err">{{ error }}</span>{% endfor %}
+  </label>
+  {% endfor %}
+  <div>{{ form.submit(class="btn") }}</div>
+</form>
+{% endblock %}

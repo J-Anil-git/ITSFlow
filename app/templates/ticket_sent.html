@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Ticket sent{% endblock %}
+{% block content %}
+<div class="done">
+  <p>Your ticket has been sent to the IT Desk</p>
+  <span>Your ticket number is <b class="tid">{{ ticket.number }}</b>.</span>
+  <a href="{{ url_for('main.log_ticket') }}">Log another ticket</a>
+</div>
+{% endblock %}
