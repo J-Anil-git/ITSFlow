@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}IT Desk dashboard{% endblock %}
+{% block content %}
+<h1>All tickets</h1>
+<p class="count">{{ tickets|length }} ticket{{ '' if tickets|length == 1 else 's' }}</p>
+{% if tickets %}
+<div class="table-wrap">
+  <table class="tickets">
+    <thead>
+      <tr><th>Ticket</th><th>Name</th><th>Department</th><th>Issue</th><th>Status</th><th>Logged</th></tr>
+    </thead>
+    <tbody>
+      {% for t in tickets %}
+      <tr>
+        <td><a class="tid" href="{{ url_for('main.ticket_detail', ticket_id=t.ticket_id) }}">{{ t.number }}</a></td>
+        <td>{{ t.staff_name }}</td>
+        <td>{{ t.department.department_name }}</td>
+        <td class="snippet">{{ t.description }}</td>
+        <td><span class="pill pill-{{ t.status|lower|replace(' ', '-') }}">{{ t.status }}</span></td>
+        <td class="when">{{ t.created_at.strftime('%d %b %H:%M') }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% else %}
+<div class="empty">No tickets yet. When staff log a ticket it will show up here.</div>
+{% endif %}
+{% endblock %}

@@ -5,6 +5,6 @@
 <p class="lede">Pick one to continue.</p>
 <div class="roles">
   <div class="role disabled"><strong>Staff</strong><span>Log an issue for the IT Desk.</span><em>Coming soon</em></div>
-  <div class="role disabled"><strong>IT Desk</strong><span>See and open all logged tickets.</span><em>Coming soon</em></div>
+  <a class="role" href="{{ url_for('main.dashboard') }}"><strong>IT Desk</strong><span>See and open all logged tickets.</span></a>
 </div>
 {% endblock %}
