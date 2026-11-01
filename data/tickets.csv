@@ -1,0 +1,26 @@
+staff_name,department,description,status,created_at,assigned_to
+Mary O'Brien,Finance,Excel keeps crashing when I open the monthly budget workbook.,Resolved,2026-10-01 09:12,abyrne
+John Doyle,Sales,Cannot connect to the VPN from home since this morning.,Resolved,2026-10-01 10:45,cwalsh
+Sarah Lynch,Human Resources,New starter needs a laptop and email account set up for Monday.,Resolved,2026-10-02 08:30,nkelly
+Patrick Kennedy,Operations,Printer on the second floor shows a paper jam but there is no paper stuck.,Resolved,2026-10-02 14:05,smurphy
+Emma Fitzgerald,Marketing,Adobe Illustrator licence has expired on my machine.,Resolved,2026-10-03 11:20,oryan
+Declan Brennan,Customer Service,Headset microphone not picked up by the phone system.,Resolved,2026-10-05 09:02,abyrne
+Grace Hayes,Legal,Need access to the shared Contracts folder on the file server.,Resolved,2026-10-06 13:47,cwalsh
+Michael Burke,Facilities,Door access card reader at the back entrance is not working.,In Progress,2026-10-07 07:55,smurphy
+Laura Dunne,Finance,Password expired and I am locked out of the payroll system.,Resolved,2026-10-08 08:10,nkelly
+Kevin Quinn,Sales,CRM is very slow to load customer records.,In Progress,2026-10-09 15:30,cwalsh
+Rachel Moran,Marketing,Second monitor flickers and turns off every few minutes.,Resolved,2026-10-12 10:00,oryan
+Thomas Daly,Operations,Laptop battery drains within an hour.,In Progress,2026-10-13 09:40,smurphy
+Siobhan Healy,Human Resources,Teams calls drop when sharing my screen.,Resolved,2026-10-14 11:15,abyrne
+Brian Nolan,Customer Service,Keyboard is missing several keys and needs replacing.,Resolved,2026-10-15 16:20,nkelly
+Ciara Power,Legal,Cannot open password protected PDF sent by a client.,Open,2026-10-19 09:25,
+David Carroll,Finance,Request to install the new expenses app on my phone.,In Progress,2026-10-20 12:00,cwalsh
+Aisling Kearney,Sales,Outlook is not syncing my calendar with my phone.,Open,2026-10-21 08:50,
+Conor Maguire,Facilities,Wi-Fi in the main meeting room keeps disconnecting.,In Progress,2026-10-22 14:35,smurphy
+Megan Duffy,Marketing,Shared drive is full and I cannot save files.,Open,2026-10-23 10:05,
+Liam Gallagher,Operations,Need a new account for a contractor starting next week.,Open,2026-10-26 09:00,oryan
+Niamh Sweeney,Customer Service,Computer restarts on its own during updates in the middle of calls.,Open,2026-10-27 13:10,
+Eoin Barry,Human Resources,Scanner sends documents to the wrong email address.,Open,2026-10-28 11:45,
+Ruth Casey,Legal,Need software installed to compare document versions.,Open,2026-10-28 15:00,
+Paul Murray,Finance,Blue screen error when docking the laptop.,Open,2026-10-29 08:20,abyrne
+Hannah Flynn,Sales,Lost phone with company email on it and need it wiped.,Open,2026-10-29 17:05,
